@@ -11,12 +11,21 @@ body{
     justify-content: center;
 }
 
+body > *{
+    opacity: 0;
+}
+
 .loader{
     position: absolute;
     top: 150px;
     height: 100px;
     animation: rotate 3s linear infinite;
     transform-origin: bottom center;
+    opacity: 1;
+}
+
+.loader.opacity{
+    opacity: 0;
 }
 
 .circle{
@@ -49,6 +58,9 @@ p{
     color: green;
 }
 
+.content.opacity{
+    opacity: 1;
+} 
 
 
 
