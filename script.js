@@ -14,10 +14,15 @@ const opacity = () =>{
 
         element.classList.add("opacity")
         
-        console.log('working')
-
     })
 
 }
 
-opacity()     
+
+setTimeout(() => {
+    
+    console.log('perfect')
+
+    opacity()      
+
+}, 4000)
