@@ -85,3 +85,25 @@ p{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media(max-width: 900px){
+
+    .content{
+        position: absolute;
+        top: 2rem;
+    }
+
+}
