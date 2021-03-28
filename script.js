@@ -9,7 +9,14 @@ const opacity = () =>{
 
     const elements = [loader, content]
 
-    console.log(elements)
+    
+    elements.forEach(element => {
+
+        element.classList.add("opacity")
+        
+        console.log('working')
+
+    })
 
 }
 
