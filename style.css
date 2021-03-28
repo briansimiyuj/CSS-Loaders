@@ -11,3 +11,20 @@ body{
     justify-content: center;
     flex-flow: column;
 }
+
+.loader{
+    height: 100px;
+}
+
+.circle{
+    display: inline-block;
+    background-color: #fd9104;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: -2px;
+}
+
+.circle:nth-child(2){
+    background: #692c03;
+}
