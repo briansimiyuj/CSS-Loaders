@@ -20,8 +20,6 @@ const opacity = () =>{
 
 
 setTimeout(() => {
-    
-    console.log('perfect')
 
     opacity()      
 
