@@ -25,10 +25,13 @@ body{
     width: 40px;
     border-radius: 50%;
     margin: 5px;
+    animation: grow 1.5s linear infinite;
+    transform: scale(0);
 }
 
 .circle:nth-child(2){
     background: #692c03;
+    animation-delay: .75s;
 }
 
 
@@ -47,6 +50,16 @@ body{
 
     to{
         transform: rotate(360deg);
+    }
+
+}
+
+
+
+@keyframes grow{
+
+    50%{
+        transform: scale(1);
     }
 
 }
